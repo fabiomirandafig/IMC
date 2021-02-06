@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="26dp"
+        android:text="Nome: " />
+
+    <EditText
+        android:id="@+id/editext"
+        android:layout_width="326dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/edittext"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="129dp"
+        android:text="Idade: " />
+
+    <EditText
+        android:id="@+id/editext2"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textview2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/edittext"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="129dp"
+        android:text="Peso (kg): " />
+
+    <EditText
+        android:id="@+id/editext3"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textview3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/edittext"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="129dp"
+        android:text="Altura (m): " />
+
+    <EditText
+        android:id="@+id/editext4"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textview3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/edittext"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Relatório Nutricional" />
+
+</RelativeLayout>
